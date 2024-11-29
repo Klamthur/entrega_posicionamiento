@@ -14,3 +14,16 @@ body {
   background-color: #000000;
   color: #9ad79b;
 }
+header {
+  background: linear-gradient(
+    to right,
+    rgba(75, 75, 75, 0.459),
+    rgba(209, 207, 207, 0.623)
+  );
+}
+.sidebar {
+  font-style: oblique;
+  color: aqua;
+}
+footer {
+}
