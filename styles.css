@@ -15,24 +15,34 @@ body {
   color: #9ad79b;
 }
 header {
+  background: rgb(2, 0, 36);
   background: linear-gradient(
-    to right,
-    rgba(71, 163, 159, 0.459),
-    rgba(72, 197, 134, 0.623)
+    90deg,
+    rgba(2, 0, 36, 0.75) 0%,
+    rgba(9, 117, 121, 0.75) 35%,
+    rgba(0, 212, 255, 0.75) 100%
   );
 }
 .sidebar {
   font-style: oblique;
   position: relative;
-  left: 90%;
+  left: 85%;
 }
 .features {
   font-style: italic;
   position: relative;
-  left: 45%;
+  left: 40%;
+}
+.feature > p {
+  overflow: scroll;
+  width: 25em;
+  height: 8em;
 }
 footer {
   position: fixed;
   bottom: 0%;
   left: 45%;
+}
+footer > p {
+  overflow: auto;
 }
