@@ -22,16 +22,25 @@ header {
     rgba(9, 117, 121, 0.75) 35%,
     rgba(0, 212, 255, 0.75) 100%
   );
+  border: solid aqua;
+  border-radius: 8px;
+}
+.content > p {
+  border: solid aqua;
+  border-radius: 8px;
 }
 .sidebar {
   font-style: oblique;
-  position: relative;
+  position: absolute;
+  border: solid aqua;
+  border-radius: 8px;
   left: 85%;
 }
 .features {
   font-style: italic;
-  position: relative;
-  left: 40%;
+  position: absolute;
+  top: 25%;
+  left: 45%;
 }
 .feature > p {
   overflow: scroll;
@@ -40,7 +49,7 @@ header {
 }
 footer {
   position: fixed;
-  bottom: 0%;
+  bottom: 10%;
   left: 45%;
 }
 footer > p {
