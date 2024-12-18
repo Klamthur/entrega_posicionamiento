@@ -60,8 +60,8 @@ main {
 footer {
   background-color: rgba(255, 255, 8, 0.808);
   position: fixed;
-  bottom: 10%;
-  left: 45%;
+  bottom: 0;
+  left: 50%;
 }
 footer > p {
   overflow: auto;
