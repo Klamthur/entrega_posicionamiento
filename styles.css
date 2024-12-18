@@ -29,13 +29,12 @@ header {
 }
 main {
   background-color: rgba(104, 184, 184, 0.671);
-  padding-top: 2%;
+  padding: 50px;
 }
 .content > p {
   background-color: blueviolet;
   border: solid aqua;
   border-radius: 8px;
-  text-align: center;
 }
 .sidebar {
   background-color: aquamarine;
@@ -43,13 +42,18 @@ main {
   position: absolute;
   border: solid aqua;
   border-radius: 8px;
+  margin-top: 55px;
   left: 85%;
+}
+.sidebar > ul {
+  list-style-type: none;
+  overflow-wrap: anywhere;
 }
 .features {
   background-color: rgba(124, 124, 76, 0.705);
   font-style: italic;
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 45%;
 }
 .feature > p {
@@ -62,7 +66,4 @@ footer {
   position: fixed;
   bottom: 0;
   left: 50%;
-}
-footer > p {
-  overflow: auto;
 }
