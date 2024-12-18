@@ -11,10 +11,11 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #000000;
+  background-color: rgba(148, 148, 96, 0.589);
   color: #9ad79b;
 }
 header {
+  position: fixed;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -24,12 +25,20 @@ header {
   );
   border: solid aqua;
   border-radius: 8px;
+  z-index: 10;
+}
+main {
+  background-color: rgba(104, 184, 184, 0.671);
+  padding-top: 2%;
 }
 .content > p {
+  background-color: blueviolet;
   border: solid aqua;
   border-radius: 8px;
+  text-align: center;
 }
 .sidebar {
+  background-color: aquamarine;
   font-style: oblique;
   position: absolute;
   border: solid aqua;
@@ -37,6 +46,7 @@ header {
   left: 85%;
 }
 .features {
+  background-color: rgba(124, 124, 76, 0.705);
   font-style: italic;
   position: absolute;
   top: 25%;
@@ -48,6 +58,7 @@ header {
   height: 8em;
 }
 footer {
+  background-color: rgba(255, 255, 8, 0.808);
   position: fixed;
   bottom: 10%;
   left: 45%;
